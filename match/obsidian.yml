@@ -1,3 +1,9 @@
 matches:
-  - trigger: ",dvfr"
+  - trigger: ",,dvfr"
     replace: "```dataview\nTABLE frage\nFROM \"data1/fragen\"\nWHERE contains(file.outlinks, this.file.link)"
+  - trigger: ",,c"
+    replace: "> [!NOTE]\n"
+  - trigger: ",,kk"
+    replace: "# Kurz & Knapp"
+  - trigger: ",,de"
+    replace: "# Details"

@@ -1,0 +1,25 @@
+---
+matches:
+  - trigger: "jmw "
+    replace: "jedes Mal wenn "
+  - trigger: "vlt "
+    replace: "vielleicht "
+  - trigger: "bzw "
+    replace: "beziehungsweise "
+  - trigger: "jm "
+    replace: "jedes Mal "
+  - trigger: "imw "
+    replace: "immer wieder "
+  - trigger: "iw "
+    replace: "irgendwie "
+  - trigger: "zb."
+    replace: "zum Beispiel "
+  - trigger: "bsp."
+    replace: "Beispiel"
+  - trigger: "klgu"
+    replace: "klingt gut"
+    
+    
+    # Satz
+  - trigger: ",prob"
+    replace: "Das ist ein Problem."
