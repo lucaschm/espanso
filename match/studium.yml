@@ -1,0 +1,22 @@
+matches:
+  - trigger: ",kr"
+    replace: "klausurrelevant"
+  - trigger: ",#v"
+    replace: "# Vermutung\n"
+  - trigger: ",vskr"
+    replace: "vs/klausurrelevant\n"
+  - trigger: ",esekr"
+    replace: "ese/klausurrelevant\n"
+
+
+  # Fragen templates
+  - trigger: ",?+-"
+    replace: "Was sind die Vor- und Nachteile von $|$?"
+  - trigger: ",?++"
+    replace: "Was sind die Vorteile von $|$?"
+  - trigger: ",?--"
+    replace: "Was sind die Nachteile von $|$?"
+  - trigger: ",?bsp"
+    replace: "Was sind Beispiele für $|$?"
+  - trigger: ",?art"
+    replace: "Gibt es unterschiedliche Arten von $|$? Wenn ja, welche? Und wie unterscheiden sie sich?"

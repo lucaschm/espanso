@@ -1,0 +1,3 @@
+matches:
+  - trigger: ",dvfr"
+    replace: "```dataview\nTABLE frage\nFROM \"data1/fragen\"\nWHERE contains(file.outlinks, this.file.link)"
