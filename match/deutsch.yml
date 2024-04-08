@@ -2,22 +2,26 @@
 matches:
   - trigger: "jmw "
     replace: "jedes Mal wenn "
-  - trigger: "vlt "
+  - trigger: "vlt."
     replace: "vielleicht "
-  - trigger: "bzw "
+  - trigger: "bzw."
     replace: "beziehungsweise "
-  - trigger: "jm "
-    replace: "jedes Mal "
   - trigger: "imw "
     replace: "immer wieder "
-  - trigger: "iw "
-    replace: "irgendwie "
-  - trigger: "zb."
+  - trigger: "iwie"
+    replace: "irgendwie"
+    word: true
+  - trigger: "irwie"
+    replace: "irgendwie"
+    word: true
+  - trigger: "zb"
     replace: "zum Beispiel "
+    word: true
   - trigger: "bsp."
     replace: "Beispiel"
   - trigger: "klgu"
     replace: "klingt gut"
+  
     
     
     # Satz
