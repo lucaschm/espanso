@@ -20,3 +20,7 @@ matches:
     replace: "Was sind Beispiele für $|$?"
   - trigger: ",?art"
     replace: "Gibt es unterschiedliche Arten von $|$? Wenn ja, welche? Und wie unterscheiden sie sich?"
+  - trigger: ",?wf"
+    replace: "Wie funktioniert $|$?"
+  - trigger: ",?herausf"
+    replace: "Was sind die Herausforderungen bei $|$?"
