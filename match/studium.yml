@@ -7,6 +7,10 @@ matches:
     replace: "vs/klausurrelevant\n"
   - trigger: ",esekr"
     replace: "ese/klausurrelevant\n"
+  - trigger: ",vspr"
+    replace: "vs/praktikum"
+  - trigger: ",vp"
+    replace: "vs/praktikum"
 
 
   # Fragen templates
