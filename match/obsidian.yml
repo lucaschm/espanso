@@ -1,6 +1,6 @@
 matches:
   - trigger: ",,dvfr"
-    replace: "```dataview\nTABLE frage\nFROM \"data1/fragen\"\nWHERE contains(file.outlinks, this.file.link)"
+    replace: "\n# Fragen\n```dataview\nTABLE frage, prio\nFROM \"data1/fragen\"\nWHERE contains(file.outlinks, this.file.link)\nSORT prio desc\n```\n"
   - trigger: ",,c"
     replace: "> [!NOTE]\n"
   - trigger: ",,kk"
