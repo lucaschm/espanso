@@ -3,22 +3,20 @@ matches:
     replace: "klausurrelevant"
   - trigger: ",#v"
     replace: "# Vermutung\n"
-  - trigger: ",vskr"
-    replace: "vs/klausurrelevant\n"
-  - trigger: ",esekr"
-    replace: "ese/klausurrelevant\n"
-  - trigger: ",vspr"
-    replace: "vs/praktikum"
-  - trigger: ",vp"
+  - triggers: [",vskr", ",vk"]
+    replace: "vs/klausurrelevant"
+  - triggers: [",esekr", ",ek"]
+    replace: "ese/klausurrelevant"
+  - triggers: [",vspr", ",vp"]
     replace: "vs/praktikum"
 
 
   # Fragen templates
-  - trigger: ",?+-"
+  - triggers: [",?+-", ",ß+-", ",+-"]
     replace: "Was sind die Vor- und Nachteile von $|$?"
-  - trigger: ",?++"
+  - triggers: [",?++", ",ß++", ",++"]
     replace: "Was sind die Vorteile von $|$?"
-  - trigger: ",?--"
+  - triggers: [",?--", ",ß--", ",--"]
     replace: "Was sind die Nachteile von $|$?"
   - trigger: ",?bsp"
     replace: "Was sind Beispiele für $|$?"
