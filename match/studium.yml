@@ -9,6 +9,10 @@ matches:
     replace: "ese/klausurrelevant"
   - triggers: [",vspr", ",vp"]
     replace: "vs/praktikum"
+  - triggers: [",vs"]
+    replace: "Verteilte System"
+  - triggers: [",vnsn"]
+    replace: "Verteilten Systemen"
 
 
   # Fragen templates
@@ -26,3 +30,5 @@ matches:
     replace: "Wie funktioniert $|$?"
   - trigger: ",?herausf"
     replace: "Was sind die Herausforderungen bei $|$?"
+  - triggers: [",?erreicht", ",?errei"]
+    replace: "Wie wird $|$ erreicht?"
