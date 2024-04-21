@@ -9,6 +9,8 @@ matches:
     replace: "ese/klausurrelevant"
   - triggers: [",vspr", ",vp"]
     replace: "vs/praktikum"
+  - triggers: [",me", ",m"]
+    replace: "vs/praktikum/meine-arbeit"
   - triggers: [",vs"]
     replace: "Verteilte System"
   - triggers: [",vnsn"]
