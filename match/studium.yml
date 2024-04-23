@@ -29,6 +29,8 @@ matches:
     replace: "Dieser Teil ist unklar und oberflächlich. Es wird nur vage über das Konzept gesprochen, ohne wirklich auf den Kern einzugehen."
 
   # Fragen templates
+  - triggers: [",?sinn", ",?zweck", ",?sz"]
+    replace: "Was ist der Sinn und Zweck von $|$?"
   - triggers: [",?+-", ",ß+-", ",+-"]
     replace: "Was sind die Vor- und Nachteile von $|$?"
   - triggers: [",?++", ",ß++", ",++"]
