@@ -16,6 +16,15 @@ matches:
   - triggers: [",vnsn"]
     replace: "Verteilten Systemen"
 
+  # Kommentare zur Verbesserung vom Lesematerial
+  - trigger: ",wtf"
+    replace: "Was ist damit gemeint?"
+  - trigger: ",wtf"
+    replace: "Diese Formulierung erschwert das Verständnis. "
+  - trigger: ",wtf"
+    replace: "Dieser Satz passt nicht in den Kontext. Zumindest fühlt sich das so an."
+  - trigger: ",lö"
+    replace: "LÖSCHEN: Dieser markierte Bereich kann entfernt werden. "
 
   # Fragen templates
   - triggers: [",?+-", ",ß+-", ",+-"]
