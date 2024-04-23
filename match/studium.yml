@@ -24,7 +24,9 @@ matches:
   - trigger: ",wtf"
     replace: "Dieser Satz passt nicht in den Kontext. Zumindest fühlt sich das so an."
   - trigger: ",lö"
-    replace: "LÖSCHEN: Dieser markierte Bereich kann entfernt werden. "
+    replace: "LÖSCHEN: Dieser markierte Bereich kann entfernt werden."
+  - trigger: ",wtf"
+    replace: "Dieser Teil ist unklar und oberflächlich. Es wird nur vage über das Konzept gesprochen, ohne wirklich auf den Kern einzugehen."
 
   # Fragen templates
   - triggers: [",?+-", ",ß+-", ",+-"]
