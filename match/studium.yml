@@ -43,3 +43,5 @@ matches:
     replace: "Was sind die Herausforderungen bei $|$?"
   - triggers: [",?erreicht", ",?errei"]
     replace: "Wie wird $|$ erreicht?"
+  - triggers: [",?unter"]
+    form: "Was ist der Unterschied zwischen [[1]] und [[2]]?"
