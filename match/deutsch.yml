@@ -15,7 +15,7 @@ matches:
     replace: "irgendwie"
     word: true
   - trigger: "zb"
-    replace: "zum Beispiel "
+    replace: "zum Beispiel"
     word: true
   - trigger: "bsp."
     replace: "Beispiel"

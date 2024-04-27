@@ -1,0 +1,49 @@
+matches:
+  - trigger: "kom"
+    replace: "Kommunikation"
+    word: true
+  - triggers: ["synekom", "syne kom"]
+    replace: "synchrone Kommunikation"
+    word: true
+  - triggers: ["synerkom", "syner kom", "synkom"]
+    replace: "synchroner Kommunikation"
+    word: true
+  - triggers: ["asynekom", "asyne kom", "asynkom"]
+    replace: "asynchrone Kommunikation"
+    word: true
+  - triggers: ["asynerkom", "asyner kom"]
+    replace: "asynchroner Kommunikation"
+    word: true
+  - triggers: ["nari"]
+    replace: "Nachricht"
+    word: true
+  - triggers: ["narin", "naris"]
+    replace: "Nachrichten"
+    word: true
+  - trigger: "net"
+    replace: "Netzwerk"
+    word: true
+  - trigger: "nete"
+    replace: "Netzwerke"
+    word: true
+  - trigger: "neten"
+    replace: "Netzwerken"
+    word: true
+  - triggers: ["sder"]
+    replace: "Sender"
+  - triggers: ["emper", "empfer"] 
+    replace: "Empfänger"
+    word: true
+  - triggers: ["empern", "empfern"] 
+    replace: "Empfängern"
+    word: true
+  - triggers: ["empers", "empfers"] 
+    replace: "Empfängers"
+    word: true
+  - trigger: ",."
+    replace: "{{mytime}}"
+    vars:
+      - name: mytime
+        type: date
+        params:
+          format: "%H:%M"
