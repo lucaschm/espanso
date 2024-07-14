@@ -31,6 +31,8 @@ matches:
     replace: "Unnötiges gelaber. Komm mal zum Punkt!"
   - trigger: ",wtf"
     replace: "Die Begründung ergibt wenig Sinn."
+  - trigger: ",wtf"
+    replace: "Es fällt schwer diesen Teil in den vorherigen Kontext einzuordnen."
 
 
   # Fragen templates
