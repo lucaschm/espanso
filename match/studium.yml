@@ -27,6 +27,11 @@ matches:
     replace: "LÖSCHEN: Dieser markierte Bereich kann entfernt werden."
   - trigger: ",wtf"
     replace: "Dieser Teil ist unklar und oberflächlich. Es wird nur vage über das Konzept gesprochen, ohne wirklich auf den Kern einzugehen."
+  - trigger: ",wtf"
+    replace: "Unnötiges gelaber. Komm mal zum Punkt!"
+  - trigger: ",wtf"
+    replace: "Die Begründung ergibt wenig Sinn."
+
 
   # Fragen templates
   - triggers: [",?sinn", ",?zweck", ",?sz"]
