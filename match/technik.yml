@@ -40,10 +40,10 @@ matches:
   - triggers: ["empers", "empfers"] 
     replace: "Empfängers"
     word: true
-  - trigger: ",."
+  - trigger: ",-"
     replace: "{{mytime}}"
     vars:
       - name: mytime
         type: date
         params:
-          format: "%H:%M"
+          format: "%Y-%m-%d"
