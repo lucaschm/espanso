@@ -1,0 +1,23 @@
+matches:
+  - trigger: ":yamlify"
+    replace: "{{output}}"
+    vars:
+      - name: input
+        type: clipboard # Uses clipboard content as input
+      - name: output
+        type: script
+        params:
+          args:
+            - python
+            - "%CONFIG%/scripts/yamlify.py"
+            - "{{input}}"
+
+  - trigger: ":pyscript"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: script
+        params:
+          args:
+            - python
+            - "%CONFIG%/scripts/pyscript.py"
