@@ -7,3 +7,7 @@ matches:
     replace: "# Kurz & Knapp"
   - trigger: ",de"
     replace: "# Details"
+  
+  # markdown code block
+  - trigger: ",,,"
+    replace: "```\n$|$\n```\n"
