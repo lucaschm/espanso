@@ -1,0 +1,11 @@
+matches:
+  - trigger: ",doco"
+    replace: "docker compose "
+  - trigger: ",dcl"
+    replace: "docker compose logs"
+  - trigger: ",dcb"
+    replace: "docker compose build"
+  - trigger: ",dcu"
+    replace: "docker compose up -d"
+  - trigger: ",dcd"
+    replace: "docker compose down"
