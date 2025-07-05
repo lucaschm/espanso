@@ -1,0 +1,8 @@
+matches:
+  - trigger: ":pymain"
+    replace: "if __name__ == '__main__':\n..."
+  - trigger: ":pyclass"
+    replace: |
+      class Class():
+      def __init__(self, ):
+          ...
