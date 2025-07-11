@@ -1,6 +1,6 @@
 matches:
   - trigger: ":pymain"
-    replace: "if __name__ == '__main__':\n..."
+    replace: "if __name__ == '__main__':\nmain()"
   - trigger: ":pyclass"
     replace: |
       class Class():
