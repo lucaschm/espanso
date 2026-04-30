@@ -6,3 +6,5 @@ matches:
       class Class():
       def __init__(self, ):
           ...
+  - trigger: ":pystart"
+    replace: "export PYTHONPATH=src\nsource venv/bin/activate"
