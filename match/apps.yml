@@ -1,0 +1,5 @@
+matches:
+  - trigger: ":startlanguagetool"
+    replace: "docker run -d --name languagetool -p 8081:8010 silviof/docker-languagetool"
+  - trigger: ":lt-adr" # address for languagetool
+    replace: "http://localhost:8081"
